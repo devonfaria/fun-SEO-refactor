@@ -25,7 +25,7 @@ header h1 {
     color: #d9dcd6;
 }
 
-header section {
+.header-nav-section {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -39,13 +39,30 @@ a {
     text-decoration: none;
 }
 
-figure {
+.hero-image {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.main-section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    background-color: #0072bb;
+}
+
+.main-image {
+    max-height: 200px;
 }
 
 .float-left {
@@ -58,31 +75,9 @@ figure {
     margin-left: 25px;
 }
 
-main {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-main section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    background-color: #0072bb;
-}
-
-main img {
-    max-height: 200px;
-}
-
-main h2 {
+.main-header {
     margin-bottom: 20px;
     font-size: 36px;
-}
-
-h3 {
-    margin-bottom: 10px;
-    text-align: center;
 }
 
 aside {
@@ -95,11 +90,16 @@ aside {
     background-color: #2589bd;
 }
 
-aside section {
+.aside-section {
     margin-bottom: 32px;
 }
 
-aside img {
+.aside-header{
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.aside-icon {
     display: block;
     margin: 10px auto;
     max-width: 150px;
