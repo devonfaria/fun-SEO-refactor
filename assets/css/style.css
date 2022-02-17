@@ -32,10 +32,6 @@ header section {
     font-size: 20px;
 }
 
-header nav {
-    list-style-type: none;
-}
-
 a {
     display: inline-block;
     margin-left: 25px;
