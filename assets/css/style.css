@@ -10,6 +10,7 @@ body {
     color: #ffffff;
 }
 
+/* Header Styling */
 header {
     padding: 20px;
     background-color: #2a607c;
@@ -25,6 +26,7 @@ header h1 {
     color: #d9dcd6;
 }
 
+/* Navigations Links in Header Styling */
 .header-nav-section {
     padding-top: 15px;
     margin-right: 20px;
@@ -39,6 +41,7 @@ a {
     text-decoration: none;
 }
 
+/* Landing Page Hero Image Styling */
 .hero-image {
     height: 800px;
     width: 100%;
@@ -48,6 +51,7 @@ a {
     background-position: center;
 }
 
+/* Main Body Content Styling */
 main {
     width: 75%;
     display: inline-block;
@@ -80,6 +84,7 @@ main {
     font-size: 36px;
 }
 
+/* Side Bar Styling */
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -94,7 +99,7 @@ aside {
     margin-bottom: 32px;
 }
 
-.aside-header{
+.aside-header {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -105,6 +110,7 @@ aside {
     max-width: 150px;
 }
 
+/* Footer Styling */
 footer {
     padding: 30px;
     clear: both;
